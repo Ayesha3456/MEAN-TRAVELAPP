@@ -1,0 +1,160 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background-color: aliceblue;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.name {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0;
+  color: #ffffff;
+}
+
+.tagline {
+  margin-left: 100px;
+  margin-top: -30px;
+}
+
+.text {
+  margin-top: 50px;
+}
+
+.lead{
+  margin-top: 10px !important;
+}
+
+.button{
+  margin-top: 10px;
+}
+
+.card-img, .card-img-top {
+  height: 250px;
+}
+
+ /* Custom CSS for Navbar */
+ .navbar {
+  background-color: #343a40; /* Dark background color */
+}
+
+.navbar-brand img {
+  max-height: 40px; /* Adjust the logo height */
+  margin-right: 10px; /* Add some spacing to the right of the logo */
+}
+
+.navbar-brand h1 {
+  font-size: 1.5rem; /* Increase the font size of the title */
+}
+
+.navbar-collapse {
+  justify-content: flex-end; /* Right-align the navigation links */
+}
+
+.navbar-nav {
+  margin-right: 20px; /* Add some spacing to the right of the navigation links */
+}
+
+.navbar-nav a.nav-link {
+  color: #fff; /* White text color for navigation links */
+  padding: 0.5rem 1rem; /* Adjust padding for better spacing */
+}
+
+.navbar-toggler {
+  border: 1px solid #fff; /* White border for the toggler button */
+}
+
+.navbar-toggler-icon {
+  background-color: #fff; /* White color for the toggler icon */
+}
+
+/* Add a hover effect for navigation links */
+.navbar-nav a.nav-link:hover {
+  background-color: #555; /* Darker background on hover */
+}
+
+.protruding-section {
+  background-color: #f8f9fa; /* Background color */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Spacing inside the section */
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); /* Box shadow for protruding effect */
+  margin-bottom: 20px; /* Spacing between sections */
+  height: 100%; /* Ensure all sections have the same height */
+  display: flex; /* Use flexbox to align content vertically */
+  flex-direction: column; /* Stack content vertically */
+}
+
+/* Custom CSS for section headers */
+.section-header {
+  font-size: 24px; /* Header font size */
+  margin-bottom: 10px; /* Spacing below the header */
+}
+
+/* Custom CSS for buttons inside sections */
+.section-button {
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none; /* Remove button border */
+  padding: 10px 20px; /* Button padding */
+  border-radius: 5px; /* Rounded button corners */
+  text-decoration: none; /* Remove underlines for links */
+}
+
+.space-between-sections {
+  margin-bottom: 30px; /* Add space between sections */
+}
+
+/* Custom CSS for footer */
+.custom-footer {
+  margin-top: 30px; /* Add space above the footer */
+}
+
+.featured-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.featured-card:hover {
+  transform: scale(1.05);
+}
+
+.backgroundImage {
+  background-image: url(/assets/background.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 370px;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover {
+  position: absolute; /* Add this to enable positioning of the text */
+  top: 50%; /* Vertically center the text */
+  left: 50%; /* Horizontally center the text */
+  transform: translate(-50%, -50%); /* Center the text both vertically and horizontally */
+  color: white; /* Set text color to white */
+  text-align: center; /* Center-align text */
+}
+
+.containerText {
+  font-weight: bold;
+}
+
+p {
+  font-size: 1rem;
+  margin: 0;
+  color: #666666;
+}
