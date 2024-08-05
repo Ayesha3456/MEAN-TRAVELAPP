@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { DestinationsService } from '../destinations.service';
 
 @Component({
@@ -9,10 +8,11 @@ import { DestinationsService } from '../destinations.service';
 })
 export class DestinationsComponent implements OnInit {
   destinations: any[] = [];
+  // Define a property for the modal content if needed
+  modalContent: any;
 
   constructor(
-    private destinationsService: DestinationsService,
-    private modalService: NgbModal
+    private destinationsService: DestinationsService
   ) { }
 
   ngOnInit(): void {
@@ -27,7 +27,8 @@ export class DestinationsComponent implements OnInit {
   }
 
   openModal(content: any): void {
-    this.modalService.open(content, { ariaLabelledBy: 'modal-basic-title' });
+    // Implement modal functionality or remove this method
+    this.modalContent = content; // This is a placeholder
   }
 
   addDestination(newDestination: any): void {
