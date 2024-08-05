@@ -1,0 +1,19 @@
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    background: #fff;
+    padding: 20px;
+  }
+
+  .mt {
+    margin-top: 4rem !important;
+  }

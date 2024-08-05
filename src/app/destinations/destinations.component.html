@@ -1,0 +1,43 @@
+<!-- Add Destination Button -->
+<button class="btn btn-primary" (click)="openModal(addDestinationModal)">Add Destination</button>
+
+<!-- Destinations List -->
+<div class="container mt-4 space-between-sections">
+  <h2 class="text-center mb-4">Our Destinations</h2>
+  <div class="row">
+    <div class="col-md-4" *ngFor="let destination of destinations">
+      <div class="card mb-4">
+        <img [src]="destination.imageUrl" class="card-img-top" alt="{{ destination.name }}">
+        <div class="card-body">
+          <h5 class="card-title">{{ destination.name }}</h5>
+          <p class="card-text">{{ destination.description }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal for Adding Destination -->
+<ng-template #addDestinationModal let-modal>
+  <div class="modal-header">
+    <h4 class="modal-title">Add Destination</h4>
+    <button type="button" class="btn-close" aria-label="Close" (click)="modal.dismiss('Cross click')"></button>
+  </div>
+  <div class="modal-body">
+    <form (ngSubmit)="addDestination(destinationForm.value)" #destinationForm="ngForm">
+      <div class="mb-3">
+        <label for="name" class="form-label">Name</label>
+        <input type="text" id="name" class="form-control" required ngModel name="name">
+      </div>
+      <div class="mb-3">
+        <label for="description" class="form-label">Description</label>
+        <textarea id="description" class="form-control" required ngModel name="description"></textarea>
+      </div>
+      <div class="mb-3">
+        <label for="imageUrl" class="form-label">Image URL</label>
+        <input type="text" id="imageUrl" class="form-control" required ngModel name="imageUrl">
+      </div>
+      <button type="submit" class="btn btn-primary">Add Destination</button>
+    </form>
+  </div>
+</ng-template>

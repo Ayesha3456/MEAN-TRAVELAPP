@@ -1,0 +1,45 @@
+<!-- Buttons to open the modals -->
+<button (click)="openPackageDialog()">Add New Package</button>
+<button (click)="openDestinationDialog()">Add New Destination</button>
+
+<!-- Packages list -->
+<div *ngFor="let package of packages">
+  <h3>{{ package.name }}</h3>
+  <p>{{ package.description }}</p>
+</div>
+
+<!-- Destinations list -->
+<div *ngFor="let destination of destinations">
+  <h3>{{ destination.name }}</h3>
+  <p>{{ destination.description }}</p>
+</div>
+
+<!-- Package Popup Modal -->
+<div class="modal" *ngIf="showPackageDialog">
+  <div class="modal-content">
+    <span class="close" (click)="closeDialog()">&times;</span>
+    <h2>Add New Package</h2>
+    <form (ngSubmit)="savePackage()">
+      <label for="packageName">Name:</label>
+      <input id="packageName" [(ngModel)]="newPackage.name" name="name" required>
+      <label for="packageDescription">Description:</label>
+      <textarea id="packageDescription" [(ngModel)]="newPackage.description" name="description" required></textarea>
+      <button type="submit">Save</button>
+    </form>
+  </div>
+</div>
+
+<!-- Destination Popup Modal -->
+<div class="modal" *ngIf="showDestinationDialog">
+  <div class="modal-content">
+    <span class="close" (click)="closeDialog()">&times;</span>
+    <h2>Add New Destination</h2>
+    <form (ngSubmit)="saveDestination()">
+      <label for="destinationName">Name:</label>
+      <input id="destinationName" [(ngModel)]="newDestination.name" name="name" required>
+      <label for="destinationDescription">Description:</label>
+      <textarea id="destinationDescription" [(ngModel)]="newDestination.description" name="description" required></textarea>
+      <button type="submit">Save</button>
+    </form>
+  </div>
+</div>

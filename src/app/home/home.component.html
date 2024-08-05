@@ -1,159 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Avalon Adventures</title>
-    <!-- Bootstrap CSS Link -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
-    <!-- Bootstrap JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
+
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
-    <div class="container">
-        <div class="col-md-6">
-            <div class="logo-title d-flex align-items-center">
-                <img src="assets/logo.png" alt="..." class="logo" width="100px" height="100px">
-                <h1 class="display-4 name">Avalon Adventures</h1>
-            </div>
-            <div class="tagline">
-                <p class="text-white">Where your travel dreams come true</p>
-            </div>
-        </div>
-        <div class="container">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Destinations</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Packages</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
+    <!-- Hero Section -->
+    <div class="jumbotron jumbotron-fluid text-center d-flex align-items-center backgroundImage mt">
+        <div class="container cover">
+            <h1 class="display-4 containerText">Discover Amazing Destinations</h1>
+            <p class="containerText">Explore the world with us and create unforgettable memories.</p>
+            <a class="btn btn-primary btn-lg button" routerLink="/booking" role="button">Book Now</a>
         </div>
     </div>
-</nav>
 
-<!-- Hero Section -->
-<div class="jumbotron jumbotron-fluid text-center d-flex align-items-center backgroundImage">
-  <div class="container cover">
-      <h1 class="display-4 containerText">Discover Amazing Destinations</h1>
-      <p class="lead containerText text-white">Explore the world with us and create unforgettable memories.</p>
-      <a class="btn btn-primary btn-lg button" href="#" role="button">Book Now</a>
-  </div>
-</div>
-
-<!-- Featured Destinations Section -->
-<div class="container mt-5 space-between-sections">
-  <h2 class="text-center mb-4">Featured Destinations</h2>
-  <div class="row">
-      <div class="col-md-4">
-          <div class="card mb-4 featured-card">
-              <img src="assets/Jaipur.png" class="card-img-top" alt="Destination 1">
-              <div class="card-body">
-                  <h5 class="card-title">Jaipur, Rajasthan</h5>
-                  <p class="card-text">Explore the Pink City with its historic forts and vibrant culture.</p>
-                  <a href="#" class="btn btn-primary">Learn More</a>
-              </div>
-          </div>
-      </div>
-      <div class="col-md-4">
-          <div class="card mb-4 featured-card">
-              <img src="assets/Goa.png" class="card-img-top" alt="Destination 2">
-              <div class="card-body">
-                  <h5 class="card-title">Goa</h5>
-                  <p class="card-text">Experience beautiful beaches, water sports, and a vibrant nightlife.</p>
-                  <a href="#" class="btn btn-primary">Learn More</a>
-              </div>
-          </div>
-      </div>
-      <div class="col-md-4">
-          <div class="card mb-4 featured-card">
-              <img src="assets/kerala.png" class="card-img-top" alt="Destination 3">
-              <div class="card-body">
-                  <h5 class="card-title">Kerala</h5>
-                  <p class="card-text">Discover lush green landscapes, serene backwaters, and hill stations.</p>
-                  <a href="#" class="btn btn-primary">Learn More</a>
-              </div>
-          </div>
-      </div>
-  </div>
-</div>
-
-<div class="container mt-5 space-between-sections">
-    <div class="row">
-        <!-- Section 1 -->
-        <div class="col-md-4">
-            <div class="protruding-section">
-                <div class="avalon-adventures-details">
-                    <h2>Avalon Adventures</h2>
-                    <p>Avalon Adventures is a new website that specializes in providing travel experiences that are tailored to your individual needs and interests.</p>
-                    <ul>
-                        <li>Whether you're looking for a relaxing beach vacation, an adventurous trek through the Himalayas, or a cultural immersion in a new country, Avalon Adventures has the perfect trip for you.</li>
-                        <li>With a team of experienced travel experts and a wide range of destinations to choose from, Avalon Adventures is the perfect way to plan your next dream vacation.</li>
-                    </ul>
-                    <a href="/book-now" class="btn btn-primary section-button">Book Now</a>
+    <!-- Featured Destinations Section -->
+    <div class="container mt-4 space-between-sections">
+        <h2 class="text-center mb-4">Featured Destinations</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4 featured-card">
+                    <div class="front">
+                        <img src="assets/Jaipur.png" class="card-img-top" alt="Destination 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Jaipur, Rajasthan</h5>
+                            <p class="card-text">Explore the Pink City with its historic forts and vibrant culture.</p>
+                        </div>
+                    </div>
+                    <div class="back">
+                        <div class="card-body">
+                            <h5 class="card-title">Jaipur, Rajasthan</h5>
+                            <p class="card-text">Jaipur, the capital city of Rajasthan, is known for its rich history,
+                                stunning architecture, and vibrant culture. Explore iconic landmarks like the Hawa
+                                Mahal, Amber Fort, and City Palace.</p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 featured-card">
+                    <div class="front">
+                        <img src="assets/Goa.png" class="card-img-top" alt="Destination 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Goa</h5>
+                            <p class="card-text">Experience beautiful beaches, water sports, and a vibrant nightlife.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="back">
+                        <div class="card-body">
+                            <h5 class="card-title">Goa</h5>
+                            <p class="card-text">Goa is renowned for its scenic beaches, Portuguese architecture, and
+                                lively nightlife. Whether you're looking for relaxation or adventure, Goa has something
+                                to offer everyone.</p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 featured-card">
+                    <div class="front">
+                        <img src="assets/kerala.png" class="card-img-top" alt="Destination 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Kerala</h5>
+                            <p class="card-text">Discover lush green landscapes, serene backwaters, and hill stations.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="back">
+                        <div class="card-body">
+                            <h5 class="card-title">Kerala</h5>
+                            <p class="card-text">Kerala, often referred to as 'God's Own Country,' is famous for its
+                                serene backwaters, lush green landscapes, and hill stations. It's a perfect destination
+                                for nature lovers and those seeking tranquility.</p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <!-- Section 2 -->
-        <div class="col-md-4">
-            <div class="protruding-section">
-                <section class="products-services">
-                    <h2>Our Products and Services</h2>
-                    <ul>
-                        <li>Beach vacations</li>
-                        <li>Adventure tours</li>
-                        <li>Cultural immersion trips</li>
-                        <li>Customizable itineraries</li>
-                    </ul>
-                    <a href="/products-services" class="btn btn-primary section-button">Learn More</a>
-                </section>
+
+    <div class="container mt-4 space-between-sections">
+        <div class="row">
+            <!-- Section 1 -->
+            <div class="col-md-4">
+                <div class="protruding-section">
+                    <div class="avalon-adventures-details">
+                        <h2>Avalon Adventures</h2>
+                        <p>Avalon Adventures is a new website that specializes in providing travel experiences that are
+                            tailored to your individual needs and interests.</p>
+                        <ul>
+                            <li>Whether you're looking for a relaxing beach vacation, an adventurous trek through the
+                                Himalayas, or a cultural immersion in a new country, Avalon Adventures has the perfect
+                                trip for you.</li>
+                            <li>With a team of experienced travel experts and a wide range of destinations to choose
+                                from, Avalon Adventures is the perfect way to plan your next dream vacation.</li>
+                        </ul>
+                        <a href="/book-now" class="btn btn-primary section-button">Book Now</a>
+                    </div>
+                </div>
             </div>
-        </div>
 
-        <!-- Section 3 -->
-        <div class="col-md-4">
-            <div class="protruding-section">
-                <section class="testimonials">
-                    <h2>Testimonials</h2>
-                    <div class="testimonial">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
-                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
-                        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
-                      </svg>
-                        <p>"Avalon Adventures helped me plan the perfect vacation to Costa Rica. I had an amazing time and would definitely recommend them to anyone looking for a great travel experience." - John Smith</p>
-                    </div>
-                    <div class="testimonial">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
-                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
-                        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
-                      </svg>
-                        <p>"I've been using Avalon Adventures for years to book my travel. They're always professional and helpful, and they always get me the best deals. I highly recommend them to anyone looking for a travel company." - Jane Doe</p>
-                    </div>
-                </section>
+            <!-- Section 2 -->
+            <div class="col-md-4">
+                <div class="protruding-section">
+                    <section class="products-services">
+                        <h2>Our Products and Services</h2>
+                        <ul>
+                            <li>Beach vacations</li>
+                            <li>Adventure tours</li>
+                            <li>Cultural immersion trips</li>
+                            <li>Customizable itineraries</li>
+                        </ul>
+                        <a href="/products-services" class="btn btn-primary section-button">Learn More</a>
+                    </section>
+                </div>
+            </div>
+
+            <!-- Section 3 -->
+            <div class="col-md-4">
+                <div class="protruding-section">
+                    <section class="testimonials">
+                        <h2>Testimonials</h2>
+                        <div class="testimonial">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-person-circle" viewBox="0 0 16 16">
+                                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                                <path fill-rule="evenodd"
+                                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                            </svg>
+                            <p>"Avalon Adventures helped me plan the perfect vacation to Costa Rica. I had an amazing
+                                time and would definitely recommend them to anyone looking for a great travel
+                                experience." - John Smith</p>
+                        </div>
+                        <div class="testimonial">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-person-circle" viewBox="0 0 16 16">
+                                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                                <path fill-rule="evenodd"
+                                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                            </svg>
+                            <p>"I've been using Avalon Adventures for years to book my travel. They're always
+                                professional and helpful, and they always get me the best deals. I highly recommend them
+                                to anyone looking for a travel company." - Jane Doe</p>
+                        </div>
+                    </section>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
-<!-- Footer Section -->
-<footer class="bg-dark text-light text-center py-3 custom-footer">
-    <div class="container">
-        <p class="text-white">&copy; 2023 Avalon Adventures</p>
-    </div>
-</footer>
+    <!-- Footer Section -->
+    <footer class="bg-dark text-light text-center py-3">
+        <div class="container">
+            <p class="mb-0">&copy; 2023 Avalon Adventures</p>
+        </div>
+    </footer>
 
 </body>
+
 </html>

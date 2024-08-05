@@ -1,0 +1,115 @@
+[
+    {
+      "id": 1,
+      "name": "Jaipur",
+      "state": "Rajasthan",
+      "description": "Known as the Pink City, Jaipur is famous for its rich history, stunning architecture, and vibrant culture.",
+      "imageUrl": "https://via.placeholder.com/300?text=Jaipur"
+    },
+    {
+      "id": 2,
+      "name": "Goa",
+      "state": "Goa",
+      "description": "Famous for its beautiful beaches, vibrant nightlife, and Portuguese heritage.",
+      "imageUrl": "https://via.placeholder.com/300?text=Goa"
+    },
+    {
+      "id": 3,
+      "name": "Kerala",
+      "state": "Kerala",
+      "description": "Known as 'God's Own Country,' Kerala is famous for its serene backwaters, lush greenery, and hill stations.",
+      "imageUrl": "https://via.placeholder.com/300?text=Kerala"
+    },
+    {
+      "id": 4,
+      "name": "Agra",
+      "state": "Uttar Pradesh",
+      "description": "Home to the iconic Taj Mahal, Agra is a city known for its Mughal architecture and historical significance.",
+      "imageUrl": "https://via.placeholder.com/300?text=Agra"
+    },
+    {
+      "id": 5,
+      "name": "Mumbai",
+      "state": "Maharashtra",
+      "description": "The financial capital of India, Mumbai is a bustling metropolis known for its Bollywood film industry and diverse culture.",
+      "imageUrl": "https://via.placeholder.com/300?text=Mumbai"
+    },
+    {
+      "id": 6,
+      "name": "Delhi",
+      "state": "Delhi",
+      "description": "The capital city of India, Delhi is known for its historical monuments, bustling markets, and cultural landmarks.",
+      "imageUrl": "https://via.placeholder.com/300?text=Delhi"
+    },
+    {
+      "id": 7,
+      "name": "Bangalore",
+      "state": "Karnataka",
+      "description": "Known as the Silicon Valley of India, Bangalore is famous for its IT industry, pleasant climate, and vibrant nightlife.",
+      "imageUrl": "https://via.placeholder.com/300?text=Bangalore"
+    },
+    {
+      "id": 8,
+      "name": "Chennai",
+      "state": "Tamil Nadu",
+      "description": "A major cultural and economic hub, Chennai is known for its historic temples, beaches, and thriving arts scene.",
+      "imageUrl": "https://via.placeholder.com/300?text=Chennai"
+    },
+    {
+      "id": 9,
+      "name": "Hyderabad",
+      "state": "Telangana",
+      "description": "Famous for its rich history, Hyderabad is known for its historic sites, including the Charminar, and its delicious cuisine.",
+      "imageUrl": "https://via.placeholder.com/300?text=Hyderabad"
+    },
+    {
+      "id": 10,
+      "name": "Pune",
+      "state": "Maharashtra",
+      "description": "Pune is known for its educational institutions, pleasant climate, and vibrant cultural scene.",
+      "imageUrl": "https://via.placeholder.com/300?text=Pune"
+    },
+    {
+      "id": 11,
+      "name": "Kolkata",
+      "state": "West Bengal",
+      "description": "Kolkata, the cultural capital of India, is known for its colonial architecture, vibrant arts scene, and historic landmarks.",
+      "imageUrl": "https://via.placeholder.com/300?text=Kolkata"
+    },
+    {
+      "id": 12,
+      "name": "Ahmedabad",
+      "state": "Gujarat",
+      "description": "Ahmedabad is known for its rich history, vibrant culture, and architectural marvels such as the Sabarmati Ashram.",
+      "imageUrl": "https://via.placeholder.com/300?text=Ahmedabad"
+    },
+    {
+      "id": 13,
+      "name": "Chandigarh",
+      "state": "Chandigarh",
+      "description": "Known for its modern architecture and urban planning, Chandigarh is a union territory and the capital of both Punjab and Haryana.",
+      "imageUrl": "https://via.placeholder.com/300?text=Chandigarh"
+    },
+    {
+      "id": 14,
+      "name": "Jaipur",
+      "state": "Rajasthan",
+      "description": "Known as the Pink City, Jaipur is famous for its rich history, stunning architecture, and vibrant culture.",
+      "imageUrl": "https://via.placeholder.com/300?text=Jaipur"
+    },
+    {
+      "id": 15,
+      "name": "Shimla",
+      "state": "Himachal Pradesh",
+      "description": "Shimla, the summer capital of British India, is known for its pleasant weather and scenic beauty.",
+      "imageUrl": "https://via.placeholder.com/300?text=Shimla"
+    },
+    {
+      "id": 16,
+      "name": "Darjeeling",
+      "state": "West Bengal",
+      "description": "Known for its tea gardens, Darjeeling offers stunning views of the Himalayas and a pleasant climate.",
+      "imageUrl": "https://via.placeholder.com/300?text=Darjeeling"
+    }
+  ]
+  

@@ -1,0 +1,73 @@
+[
+    {
+      "id": 1,
+      "title": "Rajasthan Heritage Tour",
+      "description": "Experience the rich heritage and culture of Rajasthan with visits to Jaipur, Udaipur, and Jaisalmer.",
+      "price": 1200,
+      "imageUrl": "https://via.placeholder.com/150?text=Rajasthan+Tour"
+    },
+    {
+      "id": 2,
+      "title": "Goa Beach Vacation",
+      "description": "Relax on the beautiful beaches of Goa with a package that includes accommodation, beach activities, and nightlife exploration.",
+      "price": 899,
+      "imageUrl": "https://via.placeholder.com/150?text=Goa+Vacation"
+    },
+    {
+      "id": 3,
+      "title": "Kerala Backwaters Experience",
+      "description": "Enjoy a tranquil journey through the backwaters of Kerala with a houseboat stay and visits to hill stations and beaches.",
+      "price": 1100,
+      "imageUrl": "https://via.placeholder.com/150?text=Kerala+Backwaters"
+    },
+    {
+      "id": 4,
+      "title": "Agra and Delhi Highlights",
+      "description": "A tour package covering the highlights of Agra and Delhi, including the Taj Mahal, Red Fort, and other historic landmarks.",
+      "price": 650,
+      "imageUrl": "https://via.placeholder.com/150?text=Agra+Delhi"
+    },
+    {
+      "id": 5,
+      "title": "Mumbai City Explorer",
+      "description": "Explore Mumbai with a package that includes city tours, visits to Bollywood studios, and a taste of Mumbai's street food.",
+      "price": 750,
+      "imageUrl": "https://via.placeholder.com/150?text=Mumbai+Explorer"
+    },
+    {
+      "id": 6,
+      "title": "Bangalore Tech Tour",
+      "description": "A package focused on exploring the IT hubs of Bangalore along with visits to local attractions and cultural sites.",
+      "price": 850,
+      "imageUrl": "https://via.placeholder.com/150?text=Bangalore+Tech+Tour"
+    },
+    {
+      "id": 7,
+      "title": "Chennai Cultural Experience",
+      "description": "Experience the rich culture and traditions of Chennai with guided tours to historic temples, museums, and local markets.",
+      "price": 700,
+      "imageUrl": "https://via.placeholder.com/150?text=Chennai+Culture"
+    },
+    {
+      "id": 8,
+      "title": "Darjeeling Hill Station Package",
+      "description": "Discover the beauty of Darjeeling with a package that includes a visit to the tea gardens, Himalayan views, and local attractions.",
+      "price": 950,
+      "imageUrl": "https://via.placeholder.com/150?text=Darjeeling+Package"
+    },
+    {
+      "id": 9,
+      "title": "Shimla Hill Retreat",
+      "description": "Enjoy the serene beauty of Shimla with a package that includes scenic hill station tours and cozy accommodations.",
+      "price": 1050,
+      "imageUrl": "https://via.placeholder.com/150?text=Shimla+Retreat"
+    },
+    {
+      "id": 10,
+      "title": "Chandigarh Modern City Tour",
+      "description": "Explore the modern architecture and urban planning of Chandigarh with a package that includes city tours and local experiences.",
+      "price": 600,
+      "imageUrl": "https://via.placeholder.com/150?text=Chandigarh+Tour"
+    }
+  ]
+  
